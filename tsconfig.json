@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+      "target": "ES2022",
+      "module": "ES6",
+      "strict": true,
+      "sourceMap": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "lib": ["ES2022", "DOM"]
+  },
+  "include": [
+      "./src/index.ts",
+      "webpack.config.ts",
+      "webpack.dev.ts",
+      "webpack.prod.ts"
+  ]
+}
